@@ -5,6 +5,8 @@
  */
 package application;
 
+import boardgame.Position;
+
 /**
  *
  * @author rubens
@@ -16,6 +18,8 @@ public class Program {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Position position = new Position(3, 5);
+        System.out.println(position);
     }
     
 }
